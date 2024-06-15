@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#253334">
+
+    <ImageView
+        android:id="@+id/loginIV2"
+        android:layout_width="414dp"
+        android:layout_height="245dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="486dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/leaves" />
+
+    <FrameLayout
+        android:id="@+id/loginLO"
+        android:layout_width="325dp"
+        android:layout_height="584dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="73dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/loginIV1"
+            android:layout_width="43.41dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="10dp"
+            app:srcCompat="@drawable/home_1" />
+
+        <TextView
+            android:id="@+id/loginTV1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="75dp"
+            android:fontFamily="@font/alegreya_regular"
+            android:text="Sign in"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#BEC2C2"
+            android:ems="10"
+            android:fontFamily="@font/alegreya_regular"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BEC2C2"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#BEC2C2"
+            android:ems="10"
+            android:fontFamily="@font/alegreya_regular"
+            android:hint="Пароль"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BEC2C2"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/sign_in_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="410dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#7C9A92"
+            android:fontFamily="@font/alegreya_regular"
+            android:text="Sign in"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            app:cornerRadius="20px" />
+
+        <TextView
+            android:id="@+id/loginTV2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="480dp"
+            android:fontFamily="@font/alegreya_regular"
+            android:text="Register"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/profile_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="530dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#7C9A92"
+            android:fontFamily="@font/alegreya_regular"
+            android:text="Профиль"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            app:cornerRadius="20px" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

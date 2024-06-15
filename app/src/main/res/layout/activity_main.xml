@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#253334"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/mainUpperPannel"
+        android:layout_width="350dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="42dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/mainSideMenu_btn"
+            android:layout_width="22dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/side_menu" />
+
+        <ImageView
+            android:id="@+id/mainIV"
+            android:layout_width="50dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="150dp"
+            android:src="@drawable/home_1" />
+
+        <ImageView
+            android:id="@+id/mainPhoto"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="310dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/profile_pic" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/mainLowerPannel"
+        android:layout_width="260dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/mainHome_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/home_1" />
+
+        <ImageView
+            android:id="@+id/mainSounds_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="117.5dp"
+            android:src="@drawable/sounds_0" />
+
+        <ImageView
+            android:id="@+id/mainProfile_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="235dp"
+            android:src="@drawable/profile_0" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/firstBlock"
+        android:layout_width="370dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="300dp"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/firstTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alegreya_regular"
+            android:text="Заголовок блока"
+            android:textColor="#000000"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/firstText"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/alegreya_regular"
+            android:text="Кратенькое описание блока двумя строчками"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/firstButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="95dp"
+            android:backgroundTint="#253334"
+            android:fontFamily="@font/alegreya_regular"
+            android:text="подробнее"
+            android:textSize="15dp"
+            app:cornerRadius="20px"
+            tools:ignore="TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/firstPicture"
+            android:layout_width="161dp"
+            android:layout_height="99dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/girl" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="370dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="92dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/secondTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alegreya_regular"
+            android:text="Заголовок блока"
+            android:textColor="#000000"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/secondText"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/alegreya_regular"
+            android:text="Кратенькое описание блока двумя строчками"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/secondButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="95dp"
+            android:backgroundTint="#253334"
+            android:fontFamily="@font/alegreya_regular"
+            android:text="подробнее"
+            android:textSize="15dp"
+            app:cornerRadius="20px"
+            tools:ignore="TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/secondPicture"
+            android:layout_width="202dp"
+            android:layout_height="97dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/heart" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/buttonPanel"
+        android:layout_width="370dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="184dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/calm_btn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:backgroundTint="#FFFFFF"
+            android:src="@drawable/calm"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/relaxed_btn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="95dp"
+            android:backgroundTint="#FFFFFF"
+            android:src="@drawable/relaxed"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/concentrated_btn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="190dp"
+            android:backgroundTint="#FFFFFF"
+            android:src="@drawable/concentrated"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/anxious_btn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="285dp"
+            android:backgroundTint="#FFFFFF"
+            android:src="@drawable/anxious" />
+
+        <TextView
+            android:id="@+id/calmTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="75dp"
+            android:fontFamily="@font/alegreya_regular"
+            android:text="Спокойным"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/relaxedTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="75dp"
+            android:fontFamily="@font/alegreya_regular"
+            android:text="Расслабленным"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/concentratedTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="176dp"
+            android:layout_marginTop="75dp"
+            android:fontFamily="@font/alegreya_regular"
+            android:text="Сосредоточенным"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/anxiousTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="282dp"
+            android:layout_marginTop="75dp"
+            android:fontFamily="@font/alegreya_regular"
+            android:text="Взволнованныv"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/mainTV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="106dp"
+        android:fontFamily="@font/alegreya_regular"
+        android:text="C возвращением, Эмиль!"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mainTV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="148dp"
+        android:fontFamily="@font/alegreya_regular"
+        android:text="Каким ты себя чувствуешь сегодня?"
+        android:textColor="#B3FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

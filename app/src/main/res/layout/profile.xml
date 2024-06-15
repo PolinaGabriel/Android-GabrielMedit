@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#253334">
+
+    <FrameLayout
+        android:id="@+id/profileUpperPanel"
+        android:layout_width="350dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="42dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/profileSideMenu_btn"
+            android:layout_width="22dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/side_menu" />
+
+        <TextView
+            android:id="@+id/profileExit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="325dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/alegreya_regular"
+            android:text="exit"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/profileIV"
+            android:layout_width="50dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="150dp"
+            app:srcCompat="@drawable/home_1" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/profileLowerPannel"
+        android:layout_width="260dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/profileHome_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            app:srcCompat="@drawable/home_0" />
+
+        <ImageView
+            android:id="@+id/profileProfile_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="235dp"
+            app:srcCompat="@drawable/profile_1" />
+
+        <ImageView
+            android:id="@+id/profileSounds_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="117.5dp"
+            app:srcCompat="@drawable/sounds_0" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/profilePicIV"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="116dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile_pic" />
+
+    <TextView
+        android:id="@+id/profileNameIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="239dp"
+        android:fontFamily="@font/alegreya_regular"
+        android:text="Эмиль"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/photo1"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="210dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/photo1" />
+
+    <FrameLayout
+        android:id="@+id/photoNew"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginBottom="90dp"
+        android:background="#6AAE72"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/newPhoto_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/alegreya_extrabold"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/photo3"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginBottom="330dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/photo3" />
+
+    <ImageView
+        android:id="@+id/photo4"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginBottom="210dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/photo4" />
+
+    <ImageView
+        android:id="@+id/photo2"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="330dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/photo2" />
+
+    <TextView
+        android:id="@+id/time3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_semibold"
+        android:text="11:00"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+    <TextView
+        android:id="@+id/time1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_semibold"
+        android:text="11:11"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="481dp" />
+
+    <TextView
+        android:id="@+id/time2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_semibold"
+        android:text="15:55"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="226dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+    <TextView
+        android:id="@+id/time4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alegreya_semibold"
+        android:text="19:11"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="481dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

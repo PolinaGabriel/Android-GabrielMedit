@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#253334">
+
+    <TextView
+        android:id="@+id/registerTV"
+        android:layout_width="167dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="325dp"
+        android:fontFamily="@font/alegreya_regular"
+        android:text="Тут будет регистрация"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
